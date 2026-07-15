@@ -1,0 +1,5 @@
+build*/
+.bkup
+deps.full.toml
+CMakeUserPresets.json
+install*/
