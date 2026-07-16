@@ -36,19 +36,14 @@ add_compile_definitions(
     "$<$<CONFIG:Debug>:ROPIN_DEBUG=1>"
 )
 
-
 find_package(apine REQUIRED)
 find_package(apine-provider-usd REQUIRED)
 find_package(apine-provider-cef REQUIRED)
-find_package(CLI11 REQUIRED)
 
-find_package(absl REQUIRED)
-
-apine_add_application(${CMAKE_PROJECT_NAME}
+apine_add_application(${CMAKE_PROJECT_NAME} WIN32
     LIBRARIES
-        CLI11::CLI11
         libroah::roah-logger
-        absl::base
+        libroah::roah-assert
 
     SOURCES
         app.cpp
