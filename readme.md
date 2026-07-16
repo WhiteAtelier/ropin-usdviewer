@@ -7,7 +7,7 @@ roah-apine エンジンによる usdviewer アプリです。
 
 apine = **AP**p eng**INE**、「アパイン」です。
 
-なので **RO**ah a**P**p eng**IN**e で ropin です。どうでもいいですね。
+なので **RO**ah a**P**p eng**IN**e で ropin です。どうでもいいし、なんでもいいですね。
 
 ## やりたいこと
 
@@ -24,3 +24,13 @@ apine = **AP**p eng**INE**、「アパイン」です。
 機能的には usdview の超絶劣化版になります。
 
 シーンを細かく見たい、アトリビュートを確認したい用途には向かないでしょう。
+
+## ビルド
+
+まだ、残念ながら一部の人しかビルドできないでしょう。 roah-apine が Private repository なのだから…。
+
+## License
+
+Public リポジトリですが、このリポジトリについては暫定的に MIT LICENSE を適用するものとします。
+
+(c) 2026 WhiteAtelier
