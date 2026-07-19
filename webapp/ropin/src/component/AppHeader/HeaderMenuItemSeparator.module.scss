@@ -1,0 +1,6 @@
+@use "../../colors";
+
+.headerMenuItemSeparator {
+    height: 1px;
+    background-color: var(--header-menu-border-color);
+}

@@ -1,0 +1,22 @@
+{
+  "[typescript]": {
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+  },
+  "[typescriptreact]": {
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true
+  },
+  "[scss]": {
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true
+  }
+}

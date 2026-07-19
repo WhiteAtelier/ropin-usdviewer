@@ -23,7 +23,7 @@ public:
 
 private:
     roah::apine::Layer cef_layer_;
-    roah::apine::Layer canvas2d_layer_;
+    roah::apine::Layer usd_layer_;
 };
 
 }  // namespace ropin

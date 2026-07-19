@@ -1,0 +1,12 @@
+.timeCode {
+    position: fixed;
+    bottom: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: min(max(1rem, 6vh), 2.5rem);
+    font-weight: 400;
+    font-family: "roboto-mono", monospace;
+
+    background-color: #000000;
+    padding: 0.5rem 1rem;
+}

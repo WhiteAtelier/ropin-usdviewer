@@ -1,0 +1,9 @@
+@use "../../colors";
+
+.headerMenuItemSectionLabel {
+    padding: 0.1rem 0.5rem 0.1rem;
+    border-top: 1px solid var(--header-menu-border-color);
+    color: var(--subtext-color);
+    font-size: small;
+    font-weight: bold;
+}

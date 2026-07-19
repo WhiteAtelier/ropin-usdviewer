@@ -1,0 +1,11 @@
+@use "../../colors";
+
+.headerMenu {
+    min-width: 12rem;
+
+    // border
+    border-bottom: 1px solid var(--header-menu-border-color);
+    border-left: 1px solid var(--header-menu-border-color);
+    border-right: 1px solid var(--header-menu-border-color);
+    box-sizing: border-box;
+}

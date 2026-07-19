@@ -1,0 +1,43 @@
+@use "../../colors";
+
+.menuButton {
+    position: relative;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+
+    transition: background-color 100ms;
+
+    &.opened,
+    &:hover {
+        background-color: var(--header-background-color-hover);
+    }
+
+    .menuLabel {
+        display: flex;
+        align-items: center;
+    }
+
+    .menuContents {
+        position: absolute;
+        background-color: var(--header-background-color);
+        bottom: 0;
+        transform: translateY(calc(100% - 0.5px));
+        z-index: 11;
+    }
+}
+
+.menuLeftSide {
+    border-right: 1px solid var(--header-menu-border-color);
+
+    .menuContents {
+        left: 0;
+    }
+}
+.menuRightSide {
+    border-left: 1px solid var(--header-menu-border-color);
+
+    .menuContents {
+        right: 0;
+    }
+}

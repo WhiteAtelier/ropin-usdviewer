@@ -54,3 +54,8 @@ apine_add_application(${CMAKE_PROJECT_NAME} WIN32
         apine-providers::apine-provider-usd
         apine-providers::apine-provider-cef
 )
+
+set_target_properties(${CMAKE_PROJECT_NAME}
+    PROPERTIES
+        VS_DEBUGGER_ENVIRONMENT "APINE_PROVIDER_CEF_EXPORT_TYPEDEF_DIR=${CMAKE_CURRENT_LIST_DIR}/webapp/ropin/src/types"
+)

@@ -1,0 +1,22 @@
+@use "../../colors";
+
+.headerMenuItem {
+    padding: 0.4rem 1.5rem 0.4rem 0.5rem;
+    display: flex;
+    text-wrap: nowrap;
+
+    &:hover {
+        background-color: var(--header-background-color-hover);
+    }
+
+    .icon {
+        width: 2rem;
+        text-align: right;
+    }
+
+    .label {
+        flex-grow: 1;
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+}
